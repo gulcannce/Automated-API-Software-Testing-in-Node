@@ -1,0 +1,30 @@
+{
+  "name": "automated-api-testing",
+  "version": "1.0.0",
+  "description": "Automated API testing suite for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:integration": "vitest run tests/suites/integration",
+    "test:e2e": "vitest run tests/suites/e2e",
+    "test:regression": "vitest run tests/suites/regression",
+    "test:api": "vitest -c tests/vitest.config.ts",
+    "test:api:e2e": "API_ENV=e2e vitest -c tests/vitest.config.ts tests/suites/e2e",
+    "test:api:integration": "vitest -c tests/vitest.config.ts tests/suites/integration"
+  },
+  "keywords": [
+    "testing",
+    "api",
+    "vitest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "axios": "^1.6.0",
+    "nock": "^14.0.10",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0",
+    "zod": "^3.22.0"
+  }
+}
