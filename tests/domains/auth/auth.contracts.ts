@@ -1,4 +1,4 @@
-import { userSchema, createUserSchema } from '../contracts/schemas/user.schema'
+import { userSchema, createUserSchema } from '../../contracts/schemas/user.schema'
 
 export const authContracts = {
   loginRequest: createUserSchema.omit({ name: true }),

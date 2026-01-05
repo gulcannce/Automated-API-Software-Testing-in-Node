@@ -1,4 +1,4 @@
-import { ApiClient } from '../utils/http/api-client'
+import { ApiClient } from '../../utils/http/api-client'
 
 export const login = async (client: ApiClient, credentials: { email: string; password: string }) => {
   return client.post('/auth/login', credentials)
