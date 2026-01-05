@@ -248,7 +248,7 @@ Bu proje ISC lisansı altında lisanslanmıştır.
 ## 📞 İletişim
 
 - **GitHub**: [gulcannce](https://github.com/gulcannce)
-- **LinkedIn**: [Profilinizi ekleyin]
+- **LinkedIn**: [https://www.linkedin.com/in/gulcan-celik/]
 
 ---
 
