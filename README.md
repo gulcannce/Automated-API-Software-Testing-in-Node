@@ -16,7 +16,7 @@ Modern, scalable ve enterprise-grade API test otomasyon framework'ü. Domain-dri
 - **⚡ Fast Execution**: Vitest ile paralel test çalıştırma
 - **🔧 Configurable**: Environment-specific konfigürasyonlar
 - **📊 Multiple Test Types**: Integration, E2E, Regression test desteği
-- **🎯 Clean Code**: Professional project structure
+- **🎯 Clean Code**: Professional project structure 
 
 ## 🛠️ Teknoloji Stack
 
