@@ -10,7 +10,7 @@ Modern, scalable ve enterprise-grade API test otomasyon framework'ü. Domain-dri
 ## ✨ Özellikler
 
 - **🏗️ Domain-Driven Architecture**: Testleri domain'lere göre organize edilmiş
-- **🔒 Type-Safe Testing**: Full TypeScript desteği ile type safety
+- **🔒 Type-Safe Testing**: Full TypeScript desteği ile type safety 
 - **🎭 HTTP Mocking**: Nock ile external API'leri mocklama
 - **📋 Schema Validation**: Zod ile request/response validation
 - **⚡ Fast Execution**: Vitest ile paralel test çalıştırma
